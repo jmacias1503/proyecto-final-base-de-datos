@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="robots" content="index, follow">
+
+
+<title>Proyecto final base de datos</title>
+</head>
+<body>
+  <form action="/" method="POST">
+    <label for="curp">CURP:</label>
+    <input type="text" id="Curp" name="Curp" required>
+    <label for="Nombre">Nombre(s):</label>
+    <input type="text" id="Nombre" name="Nombre" required>
+    <label for="Primerapellido">Primer apellido:</label>
+    <input type="text" id="Primerapellido" name="Primerapellido" required>
+    <label for="Segundoapellido">Segundo apellido:</label>
+    <input type="text" id="Segundoapellido" name="Segundoapellido" required>
+    <label for="Nacionalidad">Nacionalidad:</label>
+    <input type="text" id="Nacionalidad" name="Nacionalidad" required>
+    <label for="Sexo">Sexo:</label>
+    <select id="Sexo" name="Sexo" required>
+      <option value="true">Masculino</option>
+      <option value="false">Femenino</option>
+    </select>
+    <label for="Lugarnacimiento">Lugar de nacimiento:</label>
+    <input type="text" id="Lugarnacimiento" name="Lugarnacimiento" required>
+    <label for="fechanacimiento">Fecha de Nacimiento</label>
+    <input type="date" id="Fechanacimiento" name="Fechanacimiento" required>
+    <label for="Estadocivil">Estado Civil:</label>
+    <input type="text" id="Estadocivil" name="Estadocivil" required>
+    <button type="submit">Subir a la base de datos</button>
+  </form>
+</body>
+</html>
